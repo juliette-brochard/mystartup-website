@@ -1,0 +1,62 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Signika:wght@300;400;500;600;700&display=swap");
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+#myFakeElement { color:red ; }
+body {
+	font-family: 'Roboto Serif', serif;
+	font-size: 17px;
+	margin: 0px;
+	line-height: 1.4;
+	text-align: justify;
+}
+p {
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+h1,h2,h3 {
+	font-family: 'Signika', sans-serif;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.btn-green:hover {
+	transition: color 0.3s ease;
+	background-color:#9F253B 
+}
+.list-inline {
+	list-style: none;
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+    top: 0;
+}
+.list-horizontal:hover {
+	transition: color 0.3 ease;
+	color: #9F253B;
+}
+.fa-brands {
+	font-size: 40px;
+	color: #9F253B ;
+	padding-top: 360px;
+}
+.list-inline li {
+	display: inline;
+	padding: 5px;
+	margin-right: 0px;
+	margin-left: 135px;
+}
+#img-rounded {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+    margin-top:-10px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
+    float: left;
+}
